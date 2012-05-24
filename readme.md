@@ -12,7 +12,7 @@ $ mongomerge.rb source_uri target_uri [--drop]
 ##example
 
 ```
-$ mongomerge.rb mongodb://user:pass@mongo.example.com:18432/source-db mongodb://ouser:opass@db.othermongohost.com:19481/target-db
+$ mongomerge.rb mongodb://user:pass@db.example.com:8432/source mongodb://user:pwd@db2.example.org:9481/target
 ```
 
 
